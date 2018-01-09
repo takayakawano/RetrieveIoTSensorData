@@ -24,12 +24,27 @@ https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_1/
 
 # how to implement this sample
 
-## Azure Logic App
-
-
 ## Azure Cosmos DB
+### Create an Azure Cosmos DB Account
+1. Login to Azure portal
+2. Click to Create a resouece > Azure Cosmos DB >  Create button
+3. Select the API to "SQL" in the create screen.
+4. Open this Azure Cosmos DB account
 
-## Connector of Azure Logic App for Azure Cosmos DB
+### Create 
+5. [Data Explore] 
 
-## Dynamics 365(CRM) Online 
+## Implement the Connector of Azure Logic App for Azure Cosmos DB
+1. Deploy docdb-connector of Logic Apps
+https://github.com/jeffhollan/docdb-connector
+
+## Azure Logic App
+### Create an Azure Logic App
+1. Login to Azure portal
+2. Click to Create a resouece > Logic App >  Create button
+
+
+
+
+## Create a traial orgnization of Dynamics 365(CRM) Online 
 
