@@ -31,21 +31,36 @@ https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_1/
 3. Select the API to "SQL" in the create screen.
 4. Open this Azure Cosmos DB account
 
-### Create 
-5. [Data Explore] 
+### Create sample data
+1. Click [Data Explore] menu
+2. Create a collection (ex. SampleDB)
+3. Create Documents under the SampleDB collection. 
+
+A sample document
+{
+    "id": "sampledata1_id",
+    "status": "Error",
+    ...
+}
 
 ## Implement the Connector of Azure Logic App for Azure Cosmos DB
-1. Deploy docdb-connector of Logic Apps
+1. Open following site.
 https://github.com/jeffhollan/docdb-connector
+2. Click [Deploy to Azure] button
+3. Setting a key of your Azure Cosmos DB Account to Settings -> Application Settings in Connector
+
+## Create a traial orgnization of Dynamics 365(CRM) Online 
+https://www.microsoft.com/en-us/dynamics/free-crm-trial.aspx
 
 ## Azure Logic App
 ### Create an Azure Logic App
 1. Login to Azure portal
-2. Click to Create a resouece > Logic App >  Create button
-3. Open Designer of Logic Apps
+2. Create a Logic App
+3. Open Logic Apps Designer
+4. Add a [HTTP + Swagger] item. then Enter Connector URL (ex. https://docdb-connectorb644.azurewebsites.net/swagger)
+5. Click Next, then Select [Query Documents]
+6. Enter require culomns your Azure Cosmos DB Account name, Database, Collection.
+7. Enter query (ex. SELECT * FROM c WHERE c.status = 'Error')
 
 
-
-
-## Create a traial orgnization of Dynamics 365(CRM) Online 
 
