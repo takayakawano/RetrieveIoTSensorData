@@ -18,7 +18,18 @@ Azure has NoSQL that name is Azure Cosomos DB.
 Azure Cosomos DB is one of NoSQL. Azure Cosomos DB has huge benefit that is Service Level Agreenent(SLA) for customer.
 https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_1/
 
-# Overview
+# Overview this sample
 
 ![capture](https://user-images.githubusercontent.com/19568228/34712660-f17ed498-f566-11e7-9b24-18ba406baa00.JPG)
+
+# how to implement this sample
+
+## Azure Logic App
+
+
+## Azure Cosmos DB
+
+## Connector of Azure Logic App for Azure Cosmos DB
+
+## Dynamics 365(CRM) Online 
 
