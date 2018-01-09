@@ -20,7 +20,7 @@ https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_1/
 
 # Overview this sample
 
-![capture](https://user-images.githubusercontent.com/19568228/34714600-4c259264-f56d-11e7-8bc1-119d7cfc15af.JPG)
+![capture](https://user-images.githubusercontent.com/19568228/34718842-9f7101ca-f57b-11e7-818f-6072e9dd9359.JPG)
 
 # how to implement this sample
 
