@@ -1,2 +1,9 @@
-# RetrieveIoTSensorData
-This is for retrieve IoT Sensor data in Document DB from Dynamics CRM Plugin.
+
+# Azure Cosomos DB has SLA
+
+https://azure.microsoft.com/en-us/support/legal/sla/cosmos-db/v1_1/
+
+# Overview
+
+
+
